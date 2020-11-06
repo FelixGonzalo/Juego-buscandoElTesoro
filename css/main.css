@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    user-select: none;
+    background-color: rgb(158, 37, 37);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    cursor: pointer;
+}
+
+#mapa {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
